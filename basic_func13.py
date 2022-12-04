@@ -7,4 +7,6 @@ def main(a):
     Returns:
         float: the absolute value.
     '''
-    return
+    import math
+    return math.sqrt(a)
+print(main(9))
